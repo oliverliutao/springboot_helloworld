@@ -18,11 +18,11 @@ public class DemoApplication extends SpringBootServletInitializer  {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "n", defaultValue = "World") String name) {
-
-		return String.format("Hello %s!", name);
-	}
+//	@GetMapping("/hello")
+//	public String hello(@RequestParam(value = "n", defaultValue = "World") String name) {
+//
+//		return String.format("Hello %s!", name);
+//	}
 
 
 
